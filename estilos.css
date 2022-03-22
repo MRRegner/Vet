@@ -1,0 +1,72 @@
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto;
+   column-gap: 2px;
+  row-gap: 2px;
+}
+#nosotros{
+  margin: 30px 30px 5px 30px;
+  font-size: 24px;
+  text-align: center;
+}
+#servicios{
+display: grid;
+grid-template-columns: 33% 34% 33%;
+grid-template-rows: auto auto;
+text-align: center;
+font-size: 19px;
+}
+#servicios img{
+  max-width: 40%;
+}
+@media screen and (max-width: 480px) {
+  #servicios{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto ;
+  }
+  #servicios img{
+  max-width: 80%;
+}
+
+}
+
+
+#contacto{
+margin-top: 60px;
+text-align: center;
+
+}
+.a{
+  background-color:white ;
+  color: orange;
+  text-align: center;
+}
+.b{
+  background-color: white;
+  color: black;
+ 
+}
+
+<!--Navbar -->
+ul {
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+}
